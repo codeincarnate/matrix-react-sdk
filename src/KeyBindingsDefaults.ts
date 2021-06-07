@@ -201,9 +201,21 @@ const autocompleteBindings = (): KeyBinding<AutocompleteAction>[] => {
             },
         },
         {
+            action: AutocompleteAction.PrevSelection,
+            keyCombo: {
+                key: Key.ARROW_LEFT,
+            },
+        },
+        {
             action: AutocompleteAction.NextSelection,
             keyCombo: {
                 key: Key.ARROW_DOWN,
+            },
+        },
+        {
+            action: AutocompleteAction.NextSelection,
+            keyCombo: {
+                key: Key.ARROW_RIGHT,
             },
         },
     ];
